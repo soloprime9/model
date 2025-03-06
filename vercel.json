@@ -10,12 +10,10 @@
     {
       "src": "/gen",
       "dest": "index.py"
-    }
-  ],
-  "rewrites": [
+    },
     {
-      "source": "/(.*)",
-      "destination": "/api/index"
+      "src": "/(.*)",
+      "dest": "/api/index"
     }
   ],
   "env": {
